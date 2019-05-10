@@ -51,30 +51,3 @@ public class ToughQuestions1 {
 
 
 
-class Account {
-    private int acc_no;
-    private int bal;
-    private String acc_name;
-    private String type;
-    Account(int acc_no, String acc_name, String type, int bal) {
-        this.acc_no = acc_no;
-        this.bal = bal;
-        this.acc_name = acc_name;
-        this.type = type;
-    }
-    int credit(int credit) {
-        return bal = bal + credit;
-    }
-    void display()
-    {
-       System.out.println("Account Details");
-        System.out.println("Accont Number : "+acc_no);
-        System.out.println("Accont Name : "+acc_name);
-        System.out.println("Accout type :"+type);
-        System.out.println("Accout Balance :"+bal);
-        System.out.println();
-    }
-    int debit(Integer debit) {
-         return bal = bal - debit;
-    }
-}
